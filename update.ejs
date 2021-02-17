@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="back">
+    <div id="content">
+      <h3>Edit Your Thought here!...</h3>
+      <form action=<%= /update/+ data._id %> method="POST">
+        <textarea name="post" id="" cols="30" rows="10"><%= data.post%></textarea>
+        <input type="submit" name="submit">
+        <input type="submit" name="cancel" value="Cancel">
+      </form>
+     
+
+    </div>
+  </div>
+  
+</body>
+</html>
